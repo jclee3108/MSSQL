@@ -1,0 +1,3 @@
+if not exists (select 1 from _TCACodeHelpOption where CodeHelpSeq = 13820009 ) begin     INSERT INTO _TCACodeHelpOption(WordSeq,LastDateTime,LastUserSeq,IsVisible,FieldName,OptionName,OptionSeq,CodeHelpSeq,CompanySeq,Seq)    SELECT 0,'2017-11-15 17:30:44.067',167,N'1',N'ShipSerlNo',N'항차',1,13820009,0,2000452
+    INSERT INTO _TCACodeHelpOption(WordSeq,LastDateTime,LastUserSeq,IsVisible,FieldName,OptionName,OptionSeq,CodeHelpSeq,CompanySeq,Seq)    SELECT 0,'2017-11-15 17:30:44.067',167,N'1',N'EnShipName',N'모선명(영문)',2,13820009,0,2000453
+    INSERT INTO _TCACodeHelpOption(WordSeq,LastDateTime,LastUserSeq,IsVisible,FieldName,OptionName,OptionSeq,CodeHelpSeq,CompanySeq,Seq)    SELECT 0,'2017-11-15 17:30:44.067',167,N'1',N'ShipName',N'모선명(한글)',3,13820009,0,2000454end 
